@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents</title>
+    <style>
+        body {
+    /* direction: rtl; */
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.pdf-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pdf-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.pdf-item:hover {
+    transform: scale(1.02);
+}
+
+.pdf-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 15px;
+}
+
+.pdf-item h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.pdf-item p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .pdf-item h2 {
+        font-size: 16px;
+    }
+
+    .pdf-item p {
+        font-size: 13px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Documents</h1>
+        <div class="pdf-list">
+            <div class="pdf-item">
+                <a href="doc/virtual reality کتبی.pdf" target="_blank">
+                    <h2>virtual reality</h2>
+                    <p>An article on the review of the development process and challenges of virtual reality.</p>
+                </a>
+            </div>
+            <div class="pdf-item">
+                <a href="doc/پروژه تحلیل و طراحی سیستم.pdf" target="_blank">
+                    <h2>Shapino</h2>
+                    <p>Analysis and planning documents of the Shapino project (using Scrum method) "Shapino project of organic products online store".</p>
+                </a>
+            </div>
+            <div class="pdf-item">
+                <a href="doc/مستر بلیط.pdf" target="_blank">
+                    <h2>MrBilit</h2>
+                    <p>uml modeling of the ticket master project (development and implementation of the transportation project and vehicle reservation system). </p>
+                </a>
+            </div>
+
+            <h1>Projects</h1>
+            <div class="pdf-item">
+                <a href="https://github.com/mortezakhan2504/pex">
+                    <h2>pex</h2>
+                    <p>pex is a tourism website template with a minimal and modern design.</p>
+                </a>
+            </div>
+            <div class="pdf-item">
+                <a href="https://github.com/mortezakhan2504/lotus_First_edition">
+                    <h2>lotus_First_edition</h2>
+                    <p>Lotus is a website owned by a computer company and they work in the field of app design and development.</p>
+                </a>
+            </div>
+            <div class="pdf-item">
+                <a href="https://github.com/mortezakhan2504/lotus_Second_edition">
+                    <h2>lotus_Second_edition</h2>
+                    <p>Lotus is a website owned by a computer company and they work in the field of app design and development.</p>
+                </a>
+            </div>
+            <div class="pdf-item">
+                <a href="https://github.com/mortezakhan2504/lotus_final">
+                    <h2>lotus_final</h2>
+                    <p>Lotus is a website owned by a computer company and they work in the field of app design and development.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
